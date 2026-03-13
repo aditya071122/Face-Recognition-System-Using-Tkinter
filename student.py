@@ -297,7 +297,7 @@ class Student:
             messagebox.showerror("Error","All fields are required",parent=self.root)
         else:
             try:
-                    conn=mysql.connector.connect(host='localhost',user='root',password='Anonymous@1510',database='face_recognizer')
+                    conn=mysql.connector.connect(host='localhost',user='root',password='',database='face_recognizer')
                     my_cursor=conn.cursor()
                     print(                                                                                      self.var_dep.get(),
                                                                                                                 self.var_course.get(),
